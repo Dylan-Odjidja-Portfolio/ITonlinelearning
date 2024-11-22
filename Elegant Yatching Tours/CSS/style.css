@@ -144,12 +144,10 @@ button::after, button::after {
     position: absolute;
     top: 0;
     left: 0;
-    right: 0;
-    bottom: 0;
     width: 100%;
     height: 100%;
     background-color: transparent;
-    border: 3px #e6e6e6;
+    border: 3px solid #e6e6e6;
     opacity: 0;
     z-index: -1;
     transform: scaleX(1.1), scaleY(1.3);
@@ -186,4 +184,53 @@ button::after, button::after {
     font-size: 18px;
     color: #e6e6e6;
     line-height: 1.6;
+}
+
+/* Footer Section Style */
+footer {
+    background-color: #1b1b20;
+    padding: 40px 0;
+    color: #e6e6e6;
+}
+
+.footer-content {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-links a {
+    color: #e6e6e6;
+    text-decoration: none;
+    transform: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #2b6289;
+    text-decoration: none;
+    transform: color 0.3s;
+}
+
+.footer-social {
+    margin-top: 0;
+}
+
+.footer-social a{
+    color: #e6e6e6;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-social a:hover {
+    color: #2b6289;
 }
