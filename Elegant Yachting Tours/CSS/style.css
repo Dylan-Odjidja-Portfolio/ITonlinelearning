@@ -74,7 +74,7 @@ nav a:hover {
     text-align: center;
     padding: 2rem;
     padding-top: 60;
-    background-image: url("../Images/yatch.png");
+    background-image: url("../Images/yacht.png");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -166,7 +166,6 @@ button::after {
     opacity: 1;
     transform: scaleX(1) scaleY(1);
 }
-
 
 /* Main Section Style */
 .chapter-section {
@@ -406,4 +405,37 @@ bottom: 6px;
     background-color: rgba(75, 186, 253, 0.17);
     text-align: center;
     padding: 50px 20px;
+}
+
+/* Tours Page Button Alignment */
+.tour-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tour-button {
+    align-self: flex-end;
+}
+
+/* Tours Section Style */
+.tour-button-container {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.tour-button {
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: #fff;
+    background-color: #1b1b20;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.tour-button:hover {
+    background-color: #2b6289;
 }
