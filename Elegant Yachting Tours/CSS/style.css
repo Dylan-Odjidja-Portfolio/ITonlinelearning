@@ -330,12 +330,24 @@ bottom: 6px;
     margin: 0;
 }
 
+.contact label {
+    display: block;
+    font-weight: 600;
+}
+
 .contact input {
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
     color: #848484;
     line-height: 1.6;
     margin: 0;
+}
+
+.contact textarea {
+    width: 600px;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
 }
 
 /* Table Style */
