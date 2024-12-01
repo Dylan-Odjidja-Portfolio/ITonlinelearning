@@ -322,6 +322,16 @@ bottom: 6px;
     padding-bottom: 5px;
 }
 
+.h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    color: #e6e6e6;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #e6e6e6;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
 .contact form {
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
